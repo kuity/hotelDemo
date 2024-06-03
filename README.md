@@ -24,3 +24,9 @@ http://localhost:8000/hotels/by-destination-id?destination_id=1122
     - mysql running in a docker container
 - API component
     - fastapi and sqlalchemy used to serve the data via REST api
+
+# Testing
+- testing can be done with python unittest module
+```
+python -m unittest discover -s app/tests
+```
